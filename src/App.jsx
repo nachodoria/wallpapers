@@ -67,7 +67,7 @@ const App = () => {
             <div className='itembot'>
               <div className='itembutton'>
                 <button onClick={() => handlePaypalCheckout('3.99', "Wavy")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("Wavy", "3.99", "./assets/detail/wavy/phone.png", "./assets/detail/wavy/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("Wavy", "3.99", "src/assets/detail/wavy/phone.png", "src/assets/detail/wavy/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>3.99$</h1>
@@ -94,7 +94,7 @@ const App = () => {
             <div className='itembot' style={{ flexDirection: "row-reverse" }}>
               <div className='itembutton'>
                 <button onClick={() => handlePaypalCheckout('3.99', "Abstract")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("Abstract", "3.99", "./assets/detail/abstract/phone.png", "./assets/detail/abstract/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("Abstract", "3.99", "src/assets/detail/abstract/phone.png", "src/assets/detail/abstract/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>3.99$</h1>
@@ -123,7 +123,7 @@ const App = () => {
             <div className='itembot'>
               <div className='itembutton'>
                 <button onClick={() => handlePaypalCheckout('2.99', "Sonar")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("Sonar", "2.99", "./assets/detail/sonar/phone.png", "./assets/detail/sonar/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("Sonar", "2.99", "src/assets/detail/sonar/phone.png", "src/assets/detail/sonar/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>2.99$</h1>
@@ -151,7 +151,7 @@ const App = () => {
             <div className='itembot' style={{ flexDirection: "row-reverse" }}>
               <div className='itembutton' >
                 <button onClick={() => handlePaypalCheckout('4.99', "Coldplay")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("A Rush of Blood to the Head", "4.99", "./assets/detail/arobtth/phone.png", "./assets/detail/arobtth/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("A Rush of Blood to the Head", "4.99", "src/assets/detail/arobtth/phone.png", "src/assets/detail/arobtth/desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>4.99$</h1>
