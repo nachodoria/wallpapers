@@ -310,6 +310,9 @@ a{
   .navbar{
     padding-top: 0px;
   }
+  .btncontact{
+    width: 180px;
+  }
 }
 
 @media only screen and (max-width : 600px) { 
