@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 
-
 const App = () => {
   const handlePaypalCheckout = (p, n) => {
     const price = p;
@@ -67,7 +66,7 @@ const App = () => {
             <div className='itembot'>
               <div className='itembutton'>
                 <button onClick={() => handlePaypalCheckout('3.99', "Wavy")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("Wavy", "3.99", "src/assets/wavy-phone.png", "src/assets/wavy-desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("Wavy", "3.99", "/assets/wavyphone.png", "/assets/wavydesktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>3.99$</h1>
@@ -94,7 +93,7 @@ const App = () => {
             <div className='itembot' style={{ flexDirection: "row-reverse" }}>
               <div className='itembutton'>
                 <button onClick={() => handlePaypalCheckout('3.99', "Abstract")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("Abstract", "3.99", "src/assets/abstract-phone.png", "src/assets/abstract-desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("Abstract", "3.99", "/assets/abstractphone.png", "/assets/abstractdesktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>3.99$</h1>
@@ -123,7 +122,7 @@ const App = () => {
             <div className='itembot'>
               <div className='itembutton'>
                 <button onClick={() => handlePaypalCheckout('2.99', "Sonar")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("Sonar", "2.99", "src/assets/sonar-phone.png", "src/assets/sonar-desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("Sonar", "2.99", "/assets/sonarphone.png", "/assets/sonardesktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>2.99$</h1>
@@ -151,7 +150,7 @@ const App = () => {
             <div className='itembot' style={{ flexDirection: "row-reverse" }}>
               <div className='itembutton' >
                 <button onClick={() => handlePaypalCheckout('4.99', "Coldplay")} className='buttonpay'><span>Buy Now</span></button>
-                <button onClick={() => { goDetail("A Rush of Blood to the Head", "4.99", "src/assets/arobtth-phone.png", "src/assets/arobtth-desktop.png") }} className='buttonlearn'><span>Learn More</span></button>
+                <button onClick={() => { goDetail("A Rush of Blood to the Head", "4.99", "/assets/arobtthphone.png", "/assets/arobtthdesktop.png") }} className='buttonlearn'><span>Learn More</span></button>
 
               </div>
               <h1>4.99$</h1>
