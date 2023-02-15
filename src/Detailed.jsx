@@ -47,7 +47,7 @@ const Detailed =()=> {
                     </div>
                     <div className='detail-buy'>
                         <h1>Included for Phone and Desktop</h1>
-                        <button onClick={() => handlePaypalCheckout(state.price, state.name)} className='buttonpay'><span>Buy now</span></button>
+                        <button onClick={() => handlePaypalCheckout(state.price, state.name)} id="detailbuttonpay" className='buttonpay'><span>Buy now</span></button>
                         
                     </div>
                 </div>

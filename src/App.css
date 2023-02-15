@@ -293,6 +293,10 @@ a{
     margin-left: 10px;
 
   }
+  #detailbuttonpay{
+    font-size: 10px;
+
+  }
 }
 @media only screen and (max-width : 541px) { 
   .itemimg-abstract, .itemimg-coldplay, .itemimg-sonar, .itemimg-wavy{
