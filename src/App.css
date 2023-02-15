@@ -241,27 +241,27 @@ a{
 }
 
 .itemimg-wavy{
-  background-image: url(./assets/main/wv.png);
+  background-image: url(./assets/wv.png);
   width: 381px;
   height: 604px;
   background-size: cover;
 }
 .itemimg-abstract{
-  background-image: url(./assets/main/as.png);
+  background-image: url(./assets/as.png);
   width: 542px;
   height: 518px;
   background-size: cover;
 }
 
 .itemimg-sonar{
-  background-image: url(./assets/main/sr.png);
+  background-image: url(./assets/sr.png);
   width: 381px;
   height: 604px;
   background-size: cover;
 }
 
 .itemimg-coldplay{
-  background-image: url(./assets/main/cp.png);
+  background-image: url(./assets/cp.png);
   width: 542px;
   height: 518px;
   background-size: cover;
