@@ -385,7 +385,7 @@ a{
 }
 
 .detail-buy h1{
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .detail-arrow-back{
@@ -396,4 +396,9 @@ a{
   top: 10px;
   left: 10px;
   margin: 20px;
+}
+.detail-time{
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
 }

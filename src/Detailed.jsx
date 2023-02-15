@@ -44,6 +44,7 @@ const Detailed =()=> {
                 <div className="detail-text">
                     <div className='detail-title'>
                         <h1>{state.name}</h1>
+                        <h1 className='detail-time'>Every wallpaper will arrive within 1 business day</h1>
                     </div>
                     <div className='detail-buy'>
                         <h1>Included for Phone and Desktop</h1>
