@@ -321,7 +321,11 @@ a{
 
 @media only screen and (max-width : 346px) { 
   .btncontact{
-    font-size: 12px;
+    font-size: 10px;
+
+  }
+  .buttonpay span, .buttonlearn span{
+    font-size: 10px;
 
   }
 }
