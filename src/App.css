@@ -307,6 +307,9 @@ a{
   .item{
     height: 190vh;
   }
+  .navbar{
+    padding-top: 0px;
+  }
 }
 
 @media only screen and (max-width : 600px) { 
