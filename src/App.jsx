@@ -139,7 +139,7 @@ const App = () => {
           <div className='iteminfo'>
             <div className='itemdetail' style={{ alignItems: "flex-end", textAlign: "right" }}>
               <h1>
-                A Rush of blood
+                A Rush of Blood
                 to the Head
               </h1>
               <p>
